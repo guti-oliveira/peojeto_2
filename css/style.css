@@ -4,25 +4,27 @@
     padding: 0;
 }
 body {
-    height: 95.5vh;
-    background: black url(../img/Background.webp) center center no-repeat fixed;
-    background-size: cover;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/Background.webp) center center/cover no-repeat fixed;
+    height: 100vh;
+    overflow: hidden;
 }
 
 
 figure {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 section {
-    margin: 10px auto 90px auto;
+    margin: 10px auto 120px auto;
     display: block;
-    width: 260px;
+    width: 275px;
 }
 
 p {
-    font-size: 16px;
+    font-size: 15px;
     color: white;
     text-align: center;
 }
@@ -30,7 +32,7 @@ p {
 div {
     text-align: center;
     margin: 18px auto 0 auto;
-    width: 260px;
+    width: 275px;
 }
 
 div a {
