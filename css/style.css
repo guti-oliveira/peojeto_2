@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 95.5vh;
+    background: black url(../img/Background.webp) center center no-repeat fixed;
+    background-size: cover;
+}
+
+
+figure {
+    text-align: center;
+    margin-top: 40px;
+}
+
+section {
+    margin: 10px auto 90px auto;
+    display: block;
+    width: 260px;
+}
+
+p {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    margin: 18px auto 0 auto;
+    width: 260px;
+}
+
+div a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 12px 60px;
+    text-align: center;
+    font-size: 14px;
+}
